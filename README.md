@@ -15,6 +15,6 @@ Source: https://askubuntu.com/questions/281119/how-do-you-run-update-grub/281163
 
 Show Shutdowns and Reboots: `last --system`
 
-`last --system runlevel` - Lists the times when computer was running.
-`last --system shutdown` - Lists the times the computer was shutdown 
-`last --system reboot` - Lists the times the computer was rebooted 
+`last --system runlevel` - Lists the times when computer was running.  
+`last --system shutdown` - Lists the times the computer was shutdown.  
+`last --system reboot` - Lists the times the computer was rebooted.  
