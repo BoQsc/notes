@@ -33,3 +33,6 @@ Disable lock screen, as it is annoying to type a password every time the monitor
 * Clicking shutdown button on a laptop - stop prompting and directly shut down the computer.  
 
 * On Lid close - do not go to sleep, but shut down the computer.
+
+## Notices
+Takes very long time to boot. I assume due to lack of bios support a "quick boot".
