@@ -34,7 +34,7 @@ Disable lock screen, as it is annoying to type a password every time the monitor
 
 * On Lid close - do not go to sleep, but shut down the computer.
 
-* Make Alt + Shit to change Input Language, instead of Alt + Space.
+* Make Alt + Shift to change Input Language, instead of Alt + Space.
 
 ## Notices
 Takes very long time to boot. I assume due to lack of bios support a "quick boot".
