@@ -23,5 +23,5 @@ Show Shutdowns and Reboots: `last --system`
 
 
 
-Disable lock screen, as it is annoying to type a password every time the monitor screen turn off
+Disable lock screen, as it is annoying to type a password every time the monitor screen turn off  
 `gsettings set org.gnome.desktop.lockdown disable-lock-screen true`
