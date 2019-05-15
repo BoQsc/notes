@@ -26,3 +26,10 @@ https://askubuntu.com/questions/1029696/disable-password-request-from-from-suspe
 
 Disable lock screen, as it is annoying to type a password every time the monitor screen turn off  
 `gsettings set org.gnome.desktop.lockdown disable-lock-screen true`
+
+
+
+## Ideas
+* Clicking shutdown button on a laptop - stop prompting and directly shut down the computer.  
+
+* On Lid close - do not go to sleep, but shut down the computer.
