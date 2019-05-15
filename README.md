@@ -18,3 +18,10 @@ Show Shutdowns and Reboots: `last --system`
 `last --system runlevel` - Lists the times when computer was running.  
 `last --system shutdown` - Lists the times the computer was shutdown.  
 `last --system reboot` - Lists the times the computer was rebooted.  
+
+
+
+
+
+Disable lock screen, as it is annoying to type a password every time the monitor screen turn off
+`gsettings set org.gnome.desktop.lockdown disable-lock-screen true`
