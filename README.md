@@ -21,7 +21,7 @@ Show Shutdowns and Reboots: `last --system`
 
 
 
-Disable lock screen of suspension, so that lock screen won't be a problem after computer wake up.
+Disable lock screen of suspension, so that lock screen won't be a problem after computer wake up.  
 https://askubuntu.com/questions/1029696/disable-password-request-from-from-suspend-18-04/1029805#1029805
 
 Disable lock screen, as it is annoying to type a password every time the monitor screen turn off  
