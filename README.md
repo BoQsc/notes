@@ -1,5 +1,10 @@
 # notes
 ```
+[Asus N53SV]
+MatchName=*ETPS/2 Elantech Touchpad*
+MatchDMIModalias=dmi:*svnASUSTeKComputerInc.:pnN53SV:*
+AttrPressureRange=
+
 naudotojas@naudotojas-N53SV:~$ libinput --version
 1.12.6
 
