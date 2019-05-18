@@ -1,4 +1,46 @@
 # notes
+```
+naudotojas@naudotojas-N53SV:~$ libinput --version
+1.12.6
+
+naudotojas@naudotojas-N53SV:~$ sudo libinput list-devices
+Device:           ETPS/2 Elantech Touchpad
+Kernel:           /dev/input/event4
+Group:            9
+Seat:             seat0, default
+Size:             37x19mm
+Capabilities:     pointer 
+Tap-to-click:     disabled
+Tap-and-drag:     enabled
+Tap drag lock:    disabled
+Left-handed:      disabled
+Nat.scrolling:    disabled
+Middle emulation: n/a
+Calibration:      n/a
+Scroll methods:   *two-finger edge 
+Click methods:    none
+Disable-w-typing: enabled
+Accel profiles:   none
+Rotation:         n/a
+ 
+ 
+naudotojas@naudotojas-N53SV:~$ sudo libinput record /dev/input/event4
+Recording to 'stdout'.
+version: 1
+ndevices: 1
+libinput:
+  version: "1.12.6"
+  git: "unknown"
+system:
+  kernel: "5.0.0-13-generic"
+  dmi: "dmi:bvnAmericanMegatrendsInc.:bvrN53SV.212:bd04/07/2011:svnASUSTeKComputerInc.:pnN53SV:pvr1.0:rvnASUSTeKComputerInc.:rnN53SV:rvr1.0:cvnASUSTeKComputerInc.:ct10:cvr1.0:"
+devices:
+- node: /dev/input/event4
+
+```
+
+
+
 
 
 Asks for administrator password and Opens a file to edit with administrator privilegies.  
