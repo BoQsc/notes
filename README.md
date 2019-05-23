@@ -99,5 +99,23 @@ XHCI
 cat /proc/acpi/wakeup
 ```
 #### New Nvidia Drivers https://nouveau.freedesktop.org/wiki/
-Check Nvidia devices
-`ubuntu-drivers devices`
+Check Nvidia devices `ubuntu-drivers devices`
+
+
+#### AMDGPU Or RADEON drivers
+ ```
+vaidas@vaidas-SATELLITE-L855:~$ sudo lshw -c video
+  *-display                 
+       description: VGA compatible controller
+       product: Thames [Radeon HD 7500M/7600M Series]
+       vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+       physical id: 0
+       bus info: pci@0000:01:00.0
+       version: 00
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pm pciexpress msi vga_controller bus_master cap_list rom
+       configuration: driver=radeon latency=0
+       resources: irq:29 memory:b0000000-bfffffff memory:c0000000-c001ffff ioport:3000(size=256) memory:c0040000-c005ffff
+
+```
