@@ -98,4 +98,4 @@ naudotojas@naudotojas-N53SV:~/Darbalaukis$ echo XHCI | sudo tee /proc/acpi/wakeu
 XHCI
 cat /proc/acpi/wakeup
 ```
-
+#### New Nvidia Drivers https://nouveau.freedesktop.org/wiki/
