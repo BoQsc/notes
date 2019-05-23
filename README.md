@@ -99,3 +99,5 @@ XHCI
 cat /proc/acpi/wakeup
 ```
 #### New Nvidia Drivers https://nouveau.freedesktop.org/wiki/
+Check Nvidia devices
+`ubuntu-drivers devices`
