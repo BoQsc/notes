@@ -92,6 +92,8 @@ Takes very long time to boot. I assume due to lack of bios support a "quick boot
 cat /proc/acpi/wakeup
 naudotojas@naudotojas-N53SV:~/Darbalaukis$ echo EHC1 | sudo tee /proc/acpi/wakeup
 EHC1
+naudotojas@naudotojas-N53SV:~/Darbalaukis$ echo EHC1 | sudo tee /proc/acpi/wakeup
+EHC2
 naudotojas@naudotojas-N53SV:~/Darbalaukis$ echo XHCI | sudo tee /proc/acpi/wakeup
 XHCI
 cat /proc/acpi/wakeup
