@@ -87,6 +87,8 @@ Disable lock screen, as it is annoying to type a password every time the monitor
 Takes very long time to boot. I assume due to lack of bios support a "quick boot".
 
 
+
+
 ### Disable Wake up through bluetooth devices on suspension
 ```
 cat /proc/acpi/wakeup
@@ -119,3 +121,20 @@ vaidas@vaidas-SATELLITE-L855:~$ sudo lshw -c video
        resources: irq:29 memory:b0000000-bfffffff memory:c0000000-c001ffff ioport:3000(size=256) memory:c0040000-c005ffff
 
 ```
+
+
+### Underclocking AMD Radeon GPU
+
+```
+sudo su
+echo low > /sys/class/drm/card0/device/power_dpm_force_performance_level
+`  
+Source: https://askubuntu.com/questions/1127581/unable-to-change-power-profile-for-amd-radeon-graphics-card/1132594#1132594  
+More information: https://wiki.archlinux.org/index.php/ATI#Dynamic_power_management  
+
+>Note: In sysfs, paths like /sys/class/drm/... are just symlinks and may change between reboots. Persistent locations can be found in /sys/devices/, e.g. /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/. Adjust the commands accordingly for a reliable result. 
+Source: https://wiki.archlinux.org/index.php/AMDGPU#Overclocking
+
+
+
+
