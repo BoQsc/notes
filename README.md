@@ -135,11 +135,11 @@ cat /sys/class/drm/card0/device/power_dpm_state
 echo battery > /sys/class/drm/card0/device/power_dpm_state
 cat /sys/class/drm/card0/device/power_dpm_state
 ```  
-Source: https://askubuntu.com/questions/1127581/unable-to-change-power-profile-for-amd-radeon-graphics-card/1132594#1132594  
-More information: https://wiki.archlinux.org/index.php/ATI#Dynamic_power_management  
+**Source:** https://askubuntu.com/questions/1127581/unable-to-change-power-profile-for-amd-radeon-graphics-card/1132594#1132594  
+**More information:** https://wiki.archlinux.org/index.php/ATI#Dynamic_power_management  
 
->Note: In sysfs, paths like /sys/class/drm/... are just symlinks and may change between reboots. Persistent locations can be found in /sys/devices/, e.g. /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/. Adjust the commands accordingly for a reliable result. 
-Source: https://wiki.archlinux.org/index.php/AMDGPU#Overclocking
+>Note: In sysfs, paths like /sys/class/drm/... are just symlinks and may change between reboots. Persistent locations can be found in /sys/devices/, e.g. /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/. Adjust the commands accordingly for a reliable result.  
+**Source:** https://wiki.archlinux.org/index.php/AMDGPU#Overclocking
 
 
 
