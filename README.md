@@ -127,7 +127,13 @@ vaidas@vaidas-SATELLITE-L855:~$ sudo lshw -c video
 
 ```
 sudo su
+cat /sys/class/drm/card0/device/power_dpm_force_performance_level
 echo low > /sys/class/drm/card0/device/power_dpm_force_performance_level
+cat /sys/class/drm/card0/device/power_dpm_force_performance_level
+
+cat /sys/class/drm/card0/device/power_dpm_state
+echo battery > /sys/class/drm/card0/device/power_dpm_state
+cat /sys/class/drm/card0/device/power_dpm_state
 `  
 Source: https://askubuntu.com/questions/1127581/unable-to-change-power-profile-for-amd-radeon-graphics-card/1132594#1132594  
 More information: https://wiki.archlinux.org/index.php/ATI#Dynamic_power_management  
