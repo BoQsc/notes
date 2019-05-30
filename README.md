@@ -142,7 +142,7 @@ cat /sys/class/drm/card0/device/power_dpm_state
 **Source:** https://wiki.archlinux.org/index.php/AMDGPU#Overclocking
 
 
-### AMD GPU DRIVERS NEWS
+### AMD GPU DRIVERS NEWS (ATI vs AMDGPU)
 https://www.phoronix.com/scan.php?page=news_item&px=xf86-video-ati-amdgpu-19.0.1
 https://lists.freedesktop.org/archives/xorg/2019-March/059717.html
 https://www.reddit.com/r/linuxquestions/comments/3zwlwn/should_i_install_xf86videoamdgpu_or_stick_to/
