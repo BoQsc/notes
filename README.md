@@ -153,5 +153,8 @@ https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Features_Ove
 ## libinput release repository 
 https://www.freedesktop.org/software/libinput/
 
-#### Ubuntu distribution Source Package
+#### Ubuntu distribution  libinput Source Package
 https://packages.ubuntu.com/source/disco/libinput
+
+#### General libinput project repository - Gitlab
+https://gitlab.freedesktop.org/libinput/libinput
