@@ -158,3 +158,17 @@ https://packages.ubuntu.com/source/disco/libinput
 
 #### General libinput project repository - Gitlab
 https://gitlab.freedesktop.org/libinput/libinput
+
+
+# Display server and Compositor
+http://way-cooler.org/book/wayland_introduction.html
+https://discourse.ubuntu.com/t/ok-so-what-is-this-wayland-thing-anyway/8484
+
+### Video Overviews
+https://www.youtube.com/watch?v=WzhNDlz8X2s
+
+####  How to create a custom Linux GUI (Desktop) from scratch
+https://www.youtube.com/watch?v=fxWRZuKqmk4
+
+#### Linux From Scratch 7.10 - 1: Build Your Own Operating System
+https://www.youtube.com/watch?v=8WsDcW5SQ9Y
