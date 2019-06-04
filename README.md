@@ -161,7 +161,7 @@ https://gitlab.freedesktop.org/libinput/libinput
 
 
 # Display server and Compositor
-http://way-cooler.org/book/wayland_introduction.html
+http://way-cooler.org/book/wayland_introduction.html  
 https://discourse.ubuntu.com/t/ok-so-what-is-this-wayland-thing-anyway/8484
 
 ### Video Overviews
