@@ -172,3 +172,22 @@ https://www.youtube.com/watch?v=fxWRZuKqmk4
 
 #### Linux From Scratch 7.10 - 1: Build Your Own Operating System
 https://www.youtube.com/watch?v=8WsDcW5SQ9Y
+
+
+# Gathering information about Display server 
+```
+Xorg server version
+sudo X -version
+
+
+Xorg protocol version
+apt-cache show xserver-xorg | grep Version
+
+
+
+More about releases:
+http://www.x.org/wiki/Releases/7.6
+
+
+https://superuser.com/questions/366505/how-to-find-out-xorg-version-or-whats-my-xorg-version
+```
