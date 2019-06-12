@@ -26,7 +26,7 @@ Oh, and I'm gonna buy this place that's what I said
 Blame it upon a rush of blood to the head
 
 
-Sakė, aš nusipirksiu ginklą ir pradėsiu karą,
+Sakiau, aš nusipirksiu ginklą ir pradėsiu karą,
 Jeigu tik užsiminsi dėl ko verta kariauti.
 Oi, ir aš nusipirksiu šią vietą - aš tai sakiau
 Ir kaltinau staigiai srūvantį kraują galvoje.
