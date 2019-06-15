@@ -1,11 +1,11 @@
-#!/usr/bin/env
+#!/usr/bin/bash
 
 
 function stopNeedforConfirmation {
 
 	# Setting the value to 0 disables this feature and means all add-ons will be installed without user confirmation.
 	declare findText="pref(\"extensions.autoDisableScopes\", 3)";
-	declare replace="lockpref(\"extensions.autoDisableScopes\", 0)";
+	declare replace="lockPref(\"extensions.autoDisableScopes\", 0)";
 	declare insideFile="/usr/lib/firefox/browser/defaults/preferences/vendor-firefox.js";
 	sudo sed --in-place --expression "s/$findText/$replace/g" $insideFile
 	
@@ -21,7 +21,7 @@ function stopNeedforConfirmation {
 function restoreNeedforConfirmation {
 
 	# Setting the value to 0 disables this feature and means all add-ons will be installed without user confirmation.
-	declare findText="lockpref(\"extensions.autoDisableScopes\", 0)";
+	declare findText="lockPref(\"extensions.autoDisableScopes\", 0)";
 	declare replace="pref(\"extensions.autoDisableScopes\", 3)";
 	declare insideFile="/usr/lib/firefox/browser/defaults/preferences/vendor-firefox.js";
 	sudo sed --in-place --expression "s/$findText/$replace/g" $insideFile
@@ -43,7 +43,10 @@ function restoreNeedforConfirmation {
 
 
 	# WebExtensions integration for GNOME Shell  
-	apt-get install chrome-gnome-shell
+	sudo add-apt-repository universe
+	sudo apt-get install chrome-gnome-shell
+
+
 	
 	
 	# Prepare Firefox to communicate with Gnome Shell
