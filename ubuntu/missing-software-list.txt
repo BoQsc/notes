@@ -1,0 +1,78 @@
+Libinput quirk is still not included.
+Desktop-Icons Extension is kind of old.
+Grub2 boot menu is completely blacked out.
+Extension Dash to Panel  is not installed.
+Auto-login into current user was not enabled.
+Additional Emergency user was not created.
+Gedit sidebar is not enabled, 
+Gedit numbered lines are not enabled.
+Gedit Tab Width is set to 8 spaces per tab, should be 4 spaces.
+
+Gimp is not installed,
+Video editor is not installed,
+dconf is not is not installed.
+dfeet is not is not installed.
+vlc is not installed.
+Teamviewer is not installed.
+Wine is not installed
+
+Second input language is not installed. (Lithuanian) 
+Switching between input methods is Windows key + Spacebar
+Has to be: ALT + SHIFT
+
+x32 software are not enabled.
+Gparted is not installed and GpartedliveCd 
+not added to Grub2 menu for emergency situations.
+
+Gnome Dash still can not minimize applications via reclicking application's icons.
+
+Extension that allows Drawing on the screen is not installed.
+
+Wallpapers are not Downloaded.
+
+
+Ptemp is not intalled. (Allows looking at the current temperatures of the system)
+
+
+exfat is not supported, needs additional installation.
+
+
+
+Firefox has no extensions:
+* Adblock
+* Gnome Extensions
+Firefox Title Bar is not disabled.
+Firefox Bookmarks Toolbar is not enabled. 
+Firefox History View is not sorted "by Last Visited"
+
+
+The Power Button is not setup to make laptop go to sleep.
+
+Automatic suspension: The computer itself does not go to sleep after being left alone, only the screen dims.
+
+The Gnome Night Light is not enabled by default to ease eye strain.
+
+Codecs for Gnome Videos (Totem) are not installed.
+
+After pressing and confirming power off, the  tty in the background is being showed after the Gnome environment is terminated. 
+
+
+
+
+
+
+
+
+
+
+
+
+lockPref("extensions.autoDisableScopes", 0);
+pref("extensions.autoDisableScopes", 0);
+defaultPref("extensions.autoDisableScopes", 0);
+
+Needs to be re-enabled manualy for the first time and restart the browser. (Maybe two times)
+
+
+
+
